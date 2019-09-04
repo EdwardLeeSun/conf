@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ethan.blog.mapper.MyBlogCommentMapper">
+  <resultMap id="BaseResultMap" type="com.ethan.blog.model.MyBlogComment">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="o_id" jdbcType="VARCHAR" property="oId" />
+    <result column="comment_created" jdbcType="BIGINT" property="commentCreated" />
+    <result column="comment_name" jdbcType="VARCHAR" property="commentName" />
+    <result column="comment_on_id" jdbcType="VARCHAR" property="commentOnId" />
+    <result column="comment_sharp_url" jdbcType="VARCHAR" property="commentSharpUrl" />
+    <result column="comment_thumbnail_url" jdbcType="VARCHAR" property="commentThumbnailUrl" />
+    <result column="commentl_url" jdbcType="VARCHAR" property="commentlUrl" />
+    <result column="commentl_son_id" jdbcType="VARCHAR" property="commentlSonId" />
+    <result column="commentl_son_name" jdbcType="VARCHAR" property="commentlSonName" />
+    <result column="comment_content" jdbcType="LONGVARCHAR" property="commentContent" />
+  </resultMap>
+</mapper>

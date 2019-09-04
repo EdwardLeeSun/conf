@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ethan.blog.mapper.MyBlogPageMapper">
+  <resultMap id="BaseResultMap" type="com.ethan.blog.model.MyBlogPage">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="o_id" jdbcType="VARCHAR" property="oId" />
+    <result column="page_order" jdbcType="INTEGER" property="pageOrder" />
+    <result column="page_link" jdbcType="VARCHAR" property="pageLink" />
+    <result column="page_title" jdbcType="VARCHAR" property="pageTitle" />
+    <result column="page_open_target" jdbcType="VARCHAR" property="pageOpenTarget" />
+    <result column="page_icon" jdbcType="VARCHAR" property="pageIcon" />
+  </resultMap>
+</mapper>

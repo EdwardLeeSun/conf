@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ethan.blog.mapper.ArchivedateArticleMapper">
+  <resultMap id="BaseResultMap" type="com.ethan.blog.model.ArchivedateArticle">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="o_id" jdbcType="VARCHAR" property="oId" />
+    <result column="archivedate_article" jdbcType="VARCHAR" property="archivedateArticle" />
+    <result column="article_id" jdbcType="VARCHAR" property="articleId" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ethan.blog.mapper.MyBlogArticleMapper">
+  <resultMap id="BaseResultMap" type="com.ethan.blog.model.MyBlogArticle">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="o_id" jdbcType="VARCHAR" property="oId" />
+    <result column="article_title" jdbcType="VARCHAR" property="articleTitle" />
+    <result column="article_authorld" jdbcType="VARCHAR" property="articleAuthorld" />
+    <result column="article_comment_count" jdbcType="INTEGER" property="articleCommentCount" />
+    <result column="article_view_count" jdbcType="INTEGER" property="articleViewCount" />
+    <result column="article_link" jdbcType="VARCHAR" property="articleLink" />
+    <result column="article_put_top" jdbcType="CHAR" property="articlePutTop" />
+    <result column="article_created" jdbcType="BIGINT" property="articleCreated" />
+    <result column="article_updated" jdbcType="BIGINT" property="articleUpdated" />
+    <result column="article_random_double" jdbcType="DOUBLE" property="articleRandomDouble" />
+    <result column="article_sign_id" jdbcType="VARCHAR" property="articleSignId" />
+    <result column="article_is_comment" jdbcType="CHAR" property="articleIsComment" />
+    <result column="article_view_pwd" jdbcType="VARCHAR" property="articleViewPwd" />
+    <result column="article_img_url" jdbcType="VARCHAR" property="articleImgUrl" />
+    <result column="article_status" jdbcType="INTEGER" property="articleStatus" />
+    <result column="article_abstract" jdbcType="LONGVARCHAR" property="articleAbstract" />
+    <result column="article_abstract_text" jdbcType="LONGVARCHAR" property="articleAbstractText" />
+    <result column="article_tags" jdbcType="LONGVARCHAR" property="articleTags" />
+    <result column="article_context" jdbcType="LONGVARCHAR" property="articleContext" />
+  </resultMap>
+</mapper>
